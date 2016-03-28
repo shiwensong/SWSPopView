@@ -1,25 +1,12 @@
-#
-#  Be sure to run `pod spec lint SWSPopView.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
-
 Pod::Spec.new do |s|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
 
   s.name         = "SWSPopView"
   s.version      = "0.0.1"
-  s.license      = {:type => 'MIT', :file => 'LICENSE.md'}
-  s.homepage     = 'https://github.com/shiwensong/SWSPopView.git'
-  s.author       = { "xh_shiwensong" => "18996601419@163.com" }
+  #s.license      = {:type => 'MIT', :file => 'LICENSE.md'}
+  s.license      = { :type => "MIT", :file => "LICENSE" }
+
+  s.homepage     = 'https://github.com/shiwensong/SWSPopView'
+  s.author       = { "shiwensong" => "18996601419@189.cn" }
   s.summary      = "一个非常好用，简单的PopView."
   s.source       = {:git => 'https://github.com/shiwensong/SWSPopView.git', tag => 0.0.1}
   s.soure_files  = 'PopView/*.{h,m}'
@@ -29,11 +16,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See http://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
+
   #
 
 
