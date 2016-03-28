@@ -25,7 +25,7 @@ s.summary      = "这个一个悬浮在View上层的VIew，起到提示作用!"
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 #s.description  = <<-DESC
-DESC
+#DESC
 
 s.homepage     = "https://github.com/shiwensong/SWSPopView"
 # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -52,7 +52,7 @@ s.license      = "MIT"
 #  profile URL.
 #
 
-s.author             = { "shiwensong" => "18996601419@189.cn" }
+s.author             = { "xh_shiwensong" => "18996601419@163.com" }
 # Or just: s.author    = "xh_shiwensong"
 # s.authors            = { "xh_shiwensong" => "18996601419@163.com" }
 # s.social_media_url   = "http://twitter.com/xh_shiwensong"

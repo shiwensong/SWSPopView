@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.view.backgroundColor = [UIColor grayColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.view addSubview:button];
     [button setTitle:@"按钮" forState:UIControlStateNormal];
@@ -41,12 +41,12 @@
     
     PopView *popView = [PopView creat];
     
+    // popView中自定义的视图
     UIButton *button = [UIButton buttonWithType:UIButtonTypeContactAdd];
     button.bounds = CGRectMake(0, 0, 150, 100);
-    
     [button addTarget:self action:@selector(buttonActionwithButton:) forControlEvents:UIControlEventTouchUpInside];
-    popView.contentView = button;
     
+    popView.contentView = button;
     [popView showPopImageView:sender withType:PopViewIsCenter];
     
 }
@@ -54,8 +54,8 @@
 
 - (void)buttonActionwithButton:(UIButton *)sender {
     
-    NSLog(@"里面的按钮！");
-    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示信息" message:@"你点击了PopView里面的按钮" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    [alertView show];
 }
 
 @end
