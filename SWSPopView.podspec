@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
     s.source_files = 'PopView/**/*'
     #s.resource_bundles = {
-    'JSBadgeView' => ['Pod/Assets/*.png']
+    #'JSBadgeView' => ['Pod/Assets/*.png']
     }
 
     s.frameworks = 'QuartzCore'
