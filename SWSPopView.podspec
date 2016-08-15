@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "SWSPopView"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "这个一个悬浮在View上层的VIew，起到提示作用!"
 
 # This description is used to generate tags and improve search results.
@@ -52,7 +52,7 @@ s.license      = "MIT"
 #  profile URL.
 #
 
-s.author             = { "xh_shiwensong" => "18996601419@163.com" }
+s.author             = { "shiwensong" => "18996601419@189.cn" }
 # Or just: s.author    = "xh_shiwensong"
 # s.authors            = { "xh_shiwensong" => "18996601419@163.com" }
 # s.social_media_url   = "http://twitter.com/xh_shiwensong"
@@ -79,7 +79,7 @@ s.platform     = :ios
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/shiwensong/SWSPopView.git", :tag => "1.0.1" }
+s.source       = { :git => "https://github.com/shiwensong/SWSPopView.git", :tag => s.version }
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -117,7 +117,7 @@ s.source_files  = "PopView/**/*.{h,m}"
 #
 
 # s.framework  = "SomeFramework"
-# s.frameworks = "SomeFramework", "AnotherFramework"
+s.frameworks = "UIKit"
 
 # s.library   = "iconv"
 # s.libraries = "iconv", "xml2"
