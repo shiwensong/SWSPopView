@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "SWSPopView"
-s.version      = "1.0.2"
+s.version      = "1.0.3"
 s.summary      = "这个一个悬浮在View上层的VIew，起到提示作用!"
 
 # This description is used to generate tags and improve search results.
